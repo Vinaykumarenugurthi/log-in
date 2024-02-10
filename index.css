@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+  width: 400px;
+  box-shadow: 0 0 10px teal;
+  border-radius: 5px; 
+  margin: 50px;
+}
+.image-box{
+    width: 100%;     
+}
+.content-box{
+    position: relative;
+}
+.image-box img{
+  width: 100%;
+  border-radius: 5px;  
+}
+.review{
+   position: absolute; 
+   bottom: 10px;
+   right: 15px;
+   display: block;
+   background: teal;
+   padding: 10px;
+   width: 40px;
+   text-align: center;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.content-box{
+padding: 20px 10px;
+}
+.details-name p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details-rating i{
+    color: rgb(237, 237, 33);   
+}
+.details-rating{
+    margin-top: 10px;
+}
+.details-rating span{
+    font-weight: 700;
+}
+.details-price{
+   font-size: 18px; 
+   font-weight: 600;
+   margin-top: 10px;
+}
+
